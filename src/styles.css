@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+body{
+    font-family: creepster;
+    font-size: 2em;
+    background-color: black;
+    color: #ff0064;
+    text-shadow: 1px 1px white;
+}
+
+a {
+    margin-right: 20px;
+}
+a:link,a:visited{
+    color: #ff0064;
+    text-decoration: none;
+}
+a.active {
+    border-bottom: 2px solid #ff0064;
+}
